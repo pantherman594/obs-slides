@@ -183,6 +183,7 @@ const App = ({ token }) => {
 				}
 				case 82: // r
 					reloadSlides();
+					break;
 				default:
 					return;
 			}
