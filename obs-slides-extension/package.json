@@ -1,0 +1,22 @@
+{
+  "name": "obs-slides-extension",
+  "version": "0.0.1",
+  "description": "The extension for OBS Slides",
+  "main": "content.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "watch": "webpack --config webpack.config.js --mode development --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "obs-websocket-js": "^4.0.3"
+  }
+}
